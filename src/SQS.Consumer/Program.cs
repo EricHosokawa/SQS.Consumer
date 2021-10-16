@@ -15,7 +15,7 @@ namespace SQS.Consumer
             try
             {
                 var client = new AmazonSQSClient(RegionEndpoint.USEast2);
-                var url = "https://sqs.us-east-2.amazonaws.com/713434528261/teste_v1";
+                var url = "https://sqs.us-east-2.amazonaws.com/713434528261/teste_sqs";
 
                 var request = new ReceiveMessageRequest
                 {
